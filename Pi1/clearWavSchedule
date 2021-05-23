@@ -1,0 +1,1 @@
+15 0 * * * pi /home/pi/executables/clearWavs.sh
