@@ -8,6 +8,10 @@ Stereo mems mics connected via i2s
 
 ## Setup Instructions:
 
+First, install git: `sudo apt install git`.
+
+Next, clone this repository (for the appropriate pi): `git clone https://github.com/carneyaj/OhioRaspberryPis/tree/main/Pi1.git`
+
 make a program called `update.sh` in `/home/pi/` with the following code:
 ```
 #!/bin/bash
