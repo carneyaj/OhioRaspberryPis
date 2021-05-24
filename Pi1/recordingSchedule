@@ -1,1 +1,0 @@
-*/10 * * * * pi /home/pi/executables/recordAndUpload.sh
