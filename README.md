@@ -15,8 +15,8 @@ Next, clone this repository (for the appropriate pi): `git clone https://github.
 make a program called `update.sh` in `/home/pi/` with the following code:
 ```
 #!/bin/bash
-git -C /home/pi/Pi1
-cp -r /home/pi/Pi1/schedule /etc/cron.d
+git -C /home/pi/OhioRaspberryPis/Pi1
+cp -r /home/pi/OhioRaspberryPis/Pi1/schedule /etc/cron.d
 ```
 Make this file executable: `chmod +x update.sh`
 Note: Change the directory to `/home/pi/Pi2` on Pi 2.
