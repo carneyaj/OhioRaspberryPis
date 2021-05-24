@@ -10,7 +10,7 @@ Stereo mems mics connected via i2s
 
 First, install git: `sudo apt install git`.
 
-Next, clone this repository (for the appropriate pi): `git clone https://github.com/carneyaj/OhioRaspberryPis/tree/main/Pi1.git`
+Next, clone this repository (for the appropriate pi): `git clone https://github.com/carneyaj/OhioRaspberryPis`
 
 make a program called `update.sh` in `/home/pi/` with the following code:
 ```
@@ -18,6 +18,7 @@ make a program called `update.sh` in `/home/pi/` with the following code:
 git -C /home/pi/Pi1
 cp -r /home/pi/Pi1/schedule /etc/cron.d
 ```
+Make this file executable: `chmod +x update.sh`
 Note: Change the directory to `/home/pi/Pi2` on Pi 2.
 
 Finally, add a file called `update` to `/etc/cron.d/` consisting of the following:
