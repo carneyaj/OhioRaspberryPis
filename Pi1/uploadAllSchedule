@@ -1,1 +1,0 @@
-5 * * * * pi /home/pi/executables/uploadAll.sh
