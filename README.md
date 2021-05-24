@@ -10,7 +10,7 @@ Stereo mems mics connected via i2s
 
 First, install git: `sudo apt install git`.
 
-Next, clone this repository (for the appropriate pi): `git clone https://github.com/carneyaj/OhioRaspberryPis`
+Next, clone this repository: `git clone https://github.com/carneyaj/OhioRaspberryPis`
 
 In `/home/pi/OhioRaspberryPis/Pi1/` make everything executable: `chmod +x *.sh`.
 
