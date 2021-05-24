@@ -12,10 +12,6 @@ First, install git: `sudo apt install git`.
 
 Next, clone this repository: `git clone https://github.com/carneyaj/OhioRaspberryPis`
 
-In `/home/pi/OhioRaspberryPis/` get rid of git tracking of execute permissions: `git config --local core.fileMode false`
-
-In `/home/pi/OhioRaspberryPis/Pi1/` make everything executable: `chmod +x *.sh`.
-
 make a program called `update.sh` in `/home/pi/` with the following code:
 ```
 #!/bin/bash
