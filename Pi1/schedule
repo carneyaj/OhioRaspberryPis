@@ -1,3 +1,3 @@
-*/10 * * * * pi /home/pi/Pi1/recordAndUpload.sh
-15 0 * * * pi /home/pi/Pi1/clearWavs.sh
-5 * * * * pi /home/pi/Pi1/uploadAll.sh
+*/10 * * * * pi /home/pi/OhioRaspberryPis/Pi1/recordAndUpload.sh
+15 0 * * * pi /home/pi/OhioRaspberryPis/Pi1/clearWavs.sh
+5 * * * * pi /home/pi/OhioRaspberryPis/Pi1/uploadAll.sh
